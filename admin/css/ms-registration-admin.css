@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.ms-wrap input[type="text"],
+.ms-wrap input[type="number"]{
+	display: block;
+	width: 100%;
+	max-width: 300px;
+}
+.ms-wrap input[type="password"]{
+	width: 100%;
+	max-width: 300px;
+	display: block;
+}
+.ms-wrap p span{
+	float: right;
+	margin-right: calc(100% - 330px);
+	margin-top: -25px;
+}
+.ms-design-wrap input[type="text"]{
+	width: 100%;
+	max-width: 300px;
+}
+.ms-design-wrap button{
+	width: 130px;
+}
+.ms-design-wrap input[type="submit"]{
+	width: 100%;
+	max-width: 436px;
+	background: #ca4a1f !important;
+    border-color: #CA3a0e #CA2C0e #CA2C0e !important;
+    box-shadow: 0 1px 0 #CA2C0e !important;
+    text-shadow: 0 -1px 1px #ca4a1f, 1px 0 1px #ca4a1f, 0 1px 1px #ca4a1f, -1px 0 1px #ca4a1f !important;
+}
